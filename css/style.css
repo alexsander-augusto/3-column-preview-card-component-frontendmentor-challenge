@@ -93,7 +93,7 @@ button {
     font-size: 11px;
 }
 
-@media only screen and (min-width: 688px) {
+@media only screen and (min-width: 831px) {
     body {
         padding: 0px 32px;
     }
@@ -109,8 +109,13 @@ button {
     .flex-container div:nth-child(3) {
         border-radius: 0px 10px 10px 0px;
     }
+}
 
-    .flex-child {
-        min-height: 300px;
+@media (max-width: 831px) {
+    body {
+        padding: 0px 32px;
+    }
+    .flex-container {
+        height: 130vh;
     }
 }
